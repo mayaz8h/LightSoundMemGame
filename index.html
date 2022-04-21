@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the game! Observe the pattern, and repeat by pressing the buttons.
+    </p>
+    
+    
+    <div id="timer">
+      <p id="time"> Time: <br> 18 </p>
+    </div>
+    
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+  
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1); show('hamster', 'ball');" onmouseup="stopShow('hamster', 'ball')">
+        <img id = "ball" src = "https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/disco-light.png?v=1648813175836" width = "110" height = "30">
+        <img id = "hamster" src="https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/hamster.png?v=1648812685596" width="110" height="20" class = "hidden">
+      </button>
+      
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2); show('corgi', 'ball2')" onmouseup="stopShow('corgi', 'ball2')">
+        <img id = "ball2" src = "https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/disco-light.png?v=1648813175836" width = "110" height = "30">
+        <img id = "corgi" src="https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/dog.png?v=1648812802067" width="110" height="42" class = "hidden">
+      </button>
+      
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3); show('turtle', 'ball3')" onmouseup="stopTone(); stopShow('turtle', 'ball3')">
+        <img id = "ball3" src = "https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/disco-light.png?v=1648813175836" width = "110" height = "30">
+        <img id = "turtle" src="https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/turtle.png?v=1648812922704" width="110" height="42" class = "hidden">
+      </button>
+      
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4); show('cat', 'ball4')" onmouseup="stopTone(); stopShow('cat', 'ball4')">
+        <img id = "ball4" src = "https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/disco-light.png?v=1648813175836" width = "110" height = "30">
+        <img id = "cat" src="https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/cat%20(1).png?v=1648812977136" width="110" height="42" class = "hidden">
+      </button>
+      
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5); show('bird', 'ball5')" onmouseup="stopTone(); stopShow('bird', 'ball5')">
+        <img id = "ball5" src = "https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/disco-light.png?v=1648813175836" width = "110" height = "30">
+        <img id = "bird" src="https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/bird.png?v=1648813165497" width="110" height="42" class = "hidden">
+      </button>
+      
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6); show('fer', 'ball6')" onmouseup="stopTone(); stopShow('fer', 'ball6')">
+        <img id = "ball6" src = "https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/disco-light.png?v=1648813175836" width = "110" height = "30">
+        <img id = "fer" src="https://cdn.glitch.global/f09b674b-6854-4f96-bbfa-35b1d4059ff4/ferret.png?v=1648813168912" width="110" height="42" class = "hidden">
+      </button>
+
+    </div>
+    
+  </body>
+</html>
