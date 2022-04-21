@@ -39,17 +39,22 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-Start and Stop button, and player winning the game. 
-![](http://g.recordit.co/kdkE7Ag7rh.gif) 
+
+Start, stop buttons. Winning the game. 
+
+![](http://g.recordit.co/sLxStsqzNE.gif) 
 
 Losing after 3 strikes
-![](http://g.recordit.co/FgeMd718Ec.gif)
 
-Random patterns
-![](http://g.recordit.co/Nrd48zoamT.gif)
+![](http://g.recordit.co/tsYNiv246x.gif)
 
-Losing because of time
-![](http://g.recordit.co/xMMbEr40yB.gif)
+Computer picks a different pattern each time the game is played
+
+![](http://g.recordit.co/1xPA3XwzqC.gif)
+
+Losing beacuse time ran out
+
+![](http://g.recordit.co/Bdc5W50uIK.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -69,6 +74,10 @@ Understanding how to use setInterval and clearInterval
 - https://www.w3schools.com/jsref/met_win_clearinterval.asp
 - https://www.w3schools.com/jsref/met_win_setinterval.asp
 - https://tousu.in/?qa=492949/ 
+- https://stackoverflow.com/questions/30427882/make-a-timer-using-setinterval
+
+How to make a simple timer
+- https://www.youtube.com/watch?v=4piMZDO5IOI
 
 Understanding text in CSS
 - https://www.w3schools.com/css/css_text_align.asp
@@ -86,13 +95,20 @@ Playing and pausing audio
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+During this submission, I struggled the most with the optional task of building a timer. As I have never used html before, I started out very confused about how to add a rectangle into the interface to contain the time. This was a problem that I managed to overcome easily by searching online. However, I struggled to figure out how to use setInterval() and clearInterval() to represent time. Luckily, I followed the link provided in the pre-work description, and found a YouTube video of someone demonstrating how to make a very simple timer. It helped to clarify my questions on how setInterval() and clearInterval() worked and how to start and stop the timer. However, I was still confused about how to pre-set the time and reset the time to zero. I searched online for more explanations on timers and using more references, like a thread I found on stackoverflow, I created a timer that counted down from 18 seconds. What followed was a struggle to figure out where to put the timer function in the code and how to reset it after the player makes a correct guess. At first, I just tried to add it according to where I thought it would fit. This resulted in the timer counting down very quickly and continuing from where it stopped in the previous guess. I soon realized that clearInterval() did not restart the timer but instead paused it, which was why I had to search online on how to reset the time. Furthermore, there was also the problem of the timer continuing to run after the game had ended. To solve this problem, I decided to draw a flow chart, similar to the one provided in the task guidelines, and figured out where to add the startTime() function. This made my understanding of the flow of the code much better and I also managed to find a bug where I called the startTime() function twice in a row, which was a reason for why it would sometimes count down much faster than at 1 second intervals. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+Firstly, I would add heart symbols to represent the number of lives the player has. I realized while playing the game that right now the player has to remember how many mistakes they have made so far. Three symbols that represent the lives could disappear one by one with every mistake that the player makes. 
+Secondly, I would also try to shorten the time limit provided for the player to make their decision with each round to increase the difficulty as the game progresses. Furthermore, to make the interface more engaging, I would improve on the timer. When the time is running out around the last 3 seconds, the timer will flash red to increase the intensity of the game as it counts down.
+As the levels increase, the images revealed by tapping the buttons could change to increase difficulty of the game and add some variety.
+I think it would also be fun to build extra levels where the audio is a short tune and the pattern is played to the beat of the tune. The player has to click buttons in the correct rhythm to win. 
+Finally, I want to create a homepage for the game where we can track the score of the player. This can give the player incentive to play the game more regularly to beat their old score. In line with this, I would also try to add a leaderboard feature where the player can compare their score with other players and compete to get the highest score. 
+
 
 
 
