@@ -110,11 +110,11 @@ During this submission, I struggled the most with the optional tasks as I did no
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-Firstly, I would add heart symbols to represent the number of lives the player has. I realized while playing the game that right now the player has to remember how many mistakes they have made so far. Three symbols that represent the lives could disappear one by one with every mistake that the player makes. 
-Secondly, I would also try to shorten the time limit provided for the player to make their decision with each round to increase the difficulty as the game progresses. Furthermore, to make the interface more engaging, I would improve on the timer. When the time is running out around the last 3 seconds, the timer will flash red to increase the intensity of the game as it counts down.
-As the levels increase, the images revealed by tapping the buttons could change to increase difficulty of the game and add some variety.
+- Firstly, I would add heart symbols to represent the number of lives the player has. I realized while playing the game that right now the player has to remember how many mistakes they have made so far. Three symbols that represent the lives could disappear one by one with every mistake that the player makes. 
+- Secondly, I would also try to shorten the time limit provided for the player to make their decision with each round to increase the difficulty as the game progresses. Furthermore, to make the interface more engaging, I would improve on the timer. When the time is running out around the last 3 seconds, the timer will flash red to increase the intensity of the game as it counts down.
+- As the levels increase, the images revealed by tapping the buttons could change to increase difficulty of the game and add some variety.
 I think it would also be fun to build extra levels where the audio is a short tune and the pattern is played to the beat of the tune. The player has to click buttons in the correct rhythm to win. 
-Finally, I want to create a homepage for the game where we can track the score of the player. This can give the player incentive to play the game more regularly to beat their old score. In line with this, I would also try to add a leaderboard feature where the player can compare their score with other players and compete to get the highest score. 
+- Finally, I want to create a homepage for the game where we can track the score of the player. This can give the player incentive to play the game more regularly to beat their old score. In line with this, I would also try to add a leaderboard feature where the player can compare their score with other players and compete to get the highest score. 
 
 
 
