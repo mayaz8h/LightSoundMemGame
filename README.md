@@ -121,7 +121,7 @@ Finally, I want to create a homepage for the game where we can track the score o
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/73cb46b54eae43e0bac82595decb6232)
 
 
 ## License
