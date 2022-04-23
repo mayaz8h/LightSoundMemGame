@@ -6,7 +6,7 @@ Submitted by: **Maya Zheng**
 
 Time spent: **7** hours spent in total 
 
-Link to project: (https://glitch.com/edit/#!/knowledgeable-grizzled-abacus?path=README.md%3A1%3A0)
+Link to project: (https://glitch.com/edit/#!/knowledgeable-grizzled-abacus)
 
 ## Required Functionality
 
